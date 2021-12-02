@@ -3,3 +3,6 @@ plotly
 matplotlib
 pandas 
 seaborn
+sklearn
+nltk
+numpy

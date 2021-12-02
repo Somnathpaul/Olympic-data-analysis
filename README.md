@@ -10,7 +10,8 @@
 
 | Content | Link |
 | ------ | ------ |
-| Live Project | [plugins/dropbox/README.md][PlDb] |
+| Live Project | [https://olpympicdataanalysis.herokuapp.com/]|
+| Dataset | [https://www.kaggle.com/nikhilguntupalli/olympic-dataset]|
 
 
 
