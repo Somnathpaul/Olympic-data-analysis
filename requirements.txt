@@ -1,8 +1,8 @@
-streamlit 
-plotly 
-matplotlib
+streamlit
+sklearn
 pandas 
 seaborn
-sklearn
-nltk
 numpy
+plotly 
+matplotlib
+

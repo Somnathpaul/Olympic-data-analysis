@@ -6,6 +6,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style("darkgrid")
 
+
+hide_st_style = """
+                <style>
+                footer {visibility: hidden;}
+                #MainMenu {visibility: hidden;}
+                header {visibility: hidden;}
+                #stException {visibility: hidden;}
+                </style>
+                """
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 import preprocessor, helper
 
 
@@ -205,32 +217,4 @@ else:
         st.plotly_chart(fig)
 
 
-        
-
-
-
-
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-hide_st_style = """
-                <style>
-                footer {visibility: hidden;}
-                </style>
-                """
-st.markdown(hide_st_style, unsafe_allow_html=True)
